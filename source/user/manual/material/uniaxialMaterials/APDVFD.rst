@@ -56,13 +56,11 @@ Example:
 Using these parameters, comparison between the experimental and simulated load-deformation curves of APDVFD1 for sinusoidal displacement increment of 20mm and a frequency f = 0.02Hz is shown in Fig. 2. The comparison between the experimental and simulated load-deformation curves of APDVFD2 for sinusoidal displacement increment of 120mm and a frequency f = 0.02Hz is shown in Fig. 3.
 
 
-.. figure:: figures/APDVFD/APDVFD2.png
-	:align: left
-	:figclass: align-left
+.. figure:: figures/APDVFD/APDVFD5.png
+	:align: center
+	:figclass: align-center
 
-.. figure:: figures/APDVFD/APDVFD3.png
-	:align: right
-	:figclass: align-right
+
 
 
 Code Developed by: 
