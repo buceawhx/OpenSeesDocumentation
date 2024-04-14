@@ -3,7 +3,7 @@
 APDVFD Material
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-This command is used to build an asynchronous parallel double-stage viscous fluid damper (APDVFD) model. APDVFD material simulates the hysteretic behavior of asynchronous parallel double-stage viscous fluid damper with specific parameters. An adaptive iterative algorithm with a high-precision accuracy has been implemented and validated to solve numerically the constitutive equations. (Specific parameters are shown in Fig. 1.)
+This command is used to construct a uniaxialMaterial model that simulates the hysteretic responses (axial load-deformation) of an asynchronous parallel double-stage viscous fluid damper (APDVFD) with specific parameters. An adaptive iterative algorithm with a high-precision accuracy has been implemented and validated to solve numerically the constitutive equations. (Specific parameters are shown in Fig. 1.)
 
 .. function:: uniaxialMaterial APDVFD $matTag $K $G1 $G2 $Alpha $L $LC $DP $DG $N1 $N2 $DO1 $DO2 $DC $S $HP $HC <$LGap> <$NM $RelTol $AbsTol $MaxHalf>
 
@@ -63,11 +63,13 @@ Using these parameters, comparison between the experimental and simulated load-d
 
 
 
-Code Developed by: 
+Code Developed by: Linlin Xie, Cantian Yang, Haoxiang Wang, Beijing University of Civil Engineering and Architecture.
 
 References:
 
-[1] Akcelyan, S., Lignos, D. G., Hikino, T. (2018). “Adaptive Numerical Method Algorithms for Nonlinear Viscous and Bilinear Oil Damper Models Subjected to Dynamic Loading.” Soil Dynamics and Earthquake Engineering, 113, 488-502.
+[1] Yang C, Wang H, Xie L, Li A, Wang X. “Experimental and theoretical investigations on an asynchronized parallel double-stage viscous fluid damper.” Structural Control and Health Monitoring,(under review).
 
-[2] Oohara, K., and Kasai, K. (2002), “Time-History Analysis Models for Nonlinear Viscous Dampers”, Proc. Structural Engineers World Congress (SEWC), Yokohama, JAPAN, CD-ROM, T2-2-b-3 (in Japanese).
+[2] Akcelyan, S., Lignos, D. G., Hikino, T. (2018). “Adaptive Numerical Method Algorithms for Nonlinear Viscous and Bilinear Oil Damper Models Subjected to Dynamic Loading.” Soil Dynamics and Earthquake Engineering, 113, 488-502.
+
+[3] Oohara, K., and Kasai, K. (2002), “Time-History Analysis Models for Nonlinear Viscous Dampers”, Proc. Structural Engineers World Congress (SEWC), Yokohama, JAPAN, CD-ROM, T2-2-b-3 (in Japanese).
 
