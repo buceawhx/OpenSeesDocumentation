@@ -57,12 +57,12 @@ Using these parameters, comparison between the experimental and simulated load-d
 
 
 .. figure:: figures/APDVFD/APDVFD2.png
-	:align: center
-	:figclass: align-center
+	:align: left
+	:figclass: align-left
 
 .. figure:: figures/APDVFD/APDVFD3.png
-	:align: center
-	:figclass: align-center
+	:align: right
+	:figclass: align-right
 
 
 Code Developed by: 
